@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/vodyani/semantic-release#readme",
   "dependencies": {
-    "semantic-release": "^18.0.1"
+    "semantic-release": "^19.0.0"
   }
 }
