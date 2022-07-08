@@ -28,6 +28,9 @@
     "local": "npm i && npx husky install",
     "release": "npx semantic-release"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "release": {
     "extends": "./index.js"
   },
