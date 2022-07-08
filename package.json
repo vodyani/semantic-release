@@ -9,14 +9,14 @@
     "type": "git",
     "url": "git+https://github.com/vodyani/semantic-release.git"
   },
+  "bugs": {
+    "url": "https://github.com/vodyani/semantic-release/issues"
+  },
   "keywords": [
     "npm-package",
     "vodyani",
     "semantic-release"
   ],
-  "bugs": {
-    "url": "https://github.com/vodyani/semantic-release/issues"
-  },
   "files": [
     "package.json",
     "README.MD",
