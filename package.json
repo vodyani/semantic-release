@@ -1,22 +1,52 @@
 {
-  "name": "semantic-release",
+  "name": "@vodyani/semantic-release",
+  "license": "MIT",
   "version": "0.0.0",
-  "description": "semantic-release",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "ChoGathK",
+  "description": "semantic-release options for vodyani",
+  "homepage": "https://github.com/vodyani/semantic-release#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vodyani/semantic-release.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "npm-package",
+    "vodyani",
+    "semantic-release"
+  ],
   "bugs": {
     "url": "https://github.com/vodyani/semantic-release/issues"
   },
-  "homepage": "https://github.com/vodyani/semantic-release#readme",
+  "files": [
+    "package.json",
+    "README.MD",
+    "LICENSE",
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "local": "npm i && npx husky install",
+    "release": "npx semantic-release"
+  },
+  "release": {
+    "extends": "./index.js"
+  },
+  "commitlint": {
+    "extends": "@commitlint/config-conventional"
+  },
   "dependencies": {
-    "semantic-release": "^18.0.1"
+    "semantic-release": "19.0.3",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1"
+  },
+  "peerDependencies": {
+    "semantic-release": "19.0.3",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "16.3.0",
+    "@commitlint/config-conventional": "16.2.4",
+    "husky": "7.0.4"
   }
 }
