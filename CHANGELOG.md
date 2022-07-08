@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/vodyani/semantic-release/compare/v1.0.0...v1.1.0) (2022-07-08)
+
+
+### Features
+
+* change git commit message ([e236c19](https://github.com/vodyani/semantic-release/commit/e236c1916f91177f70ba293b633f916ec26bef6a))
+
 # 1.0.0 (2022-07-08)
 
 
