@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/vodyani/semantic-release/compare/v1.1.0...v1.1.1) (2022-07-08)
+
+
+### Bug Fixes
+
+* npm publish ([d1bc69a](https://github.com/vodyani/semantic-release/commit/d1bc69a06b81d950b9fefee7d1c135be178ed476))
+* npm publish ([fbd1374](https://github.com/vodyani/semantic-release/commit/fbd1374ceac6e7d6bcf7c2a4c5c3f089852a9469))
+
 # [1.1.0](https://github.com/vodyani/semantic-release/compare/v1.0.0...v1.1.0) (2022-07-08)
 
 

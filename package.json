@@ -1,7 +1,7 @@
 {
   "name": "@vodyani/semantic-release",
   "license": "MIT",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "ChoGathK",
   "description": "semantic-release options for vodyani",
   "homepage": "https://github.com/vodyani/semantic-release#readme",
