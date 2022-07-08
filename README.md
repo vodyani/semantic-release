@@ -31,6 +31,12 @@ npm install --save-dev @vodyani/semantic-release
 - @semantic-release/git `v10`
 - @semantic-release/changelog `v6`
 
+## Team
+
+|[![ChoGathK](https://github.com/chogathK.png?size=100)](https://github.com/chogathK)|
+|:-:|
+|[ChoGathK](https://github.com/chogathK)|
+
 ## License
 
 Vodyani semantic-release is [MIT licensed](LICENSE).
