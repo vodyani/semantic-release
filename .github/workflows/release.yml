@@ -5,8 +5,8 @@ on:
     branches: [master]
 
 jobs:
-  publish_release:
-    uses: vodyani/workflows/.github/workflows/publish-release-v2.yml@master
+  semantic_release:
+    uses: vodyani/workflows/.github/workflows/semantic-release.yml@master
     secrets:
       NPM_CI_TOKEN: ${{ secrets.NPM_CI_TOKEN }}
       GITHUB_CI_TOKEN: ${{ secrets.GITHUB_TOKEN }}
